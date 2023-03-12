@@ -1,0 +1,156 @@
+:root {
+    --light: #ccdad1;
+    --light-green: #9caea9;
+    --dark-green: #788585;
+    --brown: #6f6866;
+    --dark: #38302e;
+    --radius: 0.3 rem;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--dark);
+    font-size: 16px;
+  }
+
+.nav-item a {
+    /* color: var(--light); */
+    text-decoration: none;
+}
+
+.navibar {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--radius);
+    background-color: var(--brown);
+    color: var(--light);
+    width: 100%;
+    position: fixed;
+    background-color: var(--dark);
+    justify-content: space-between;
+}
+
+.navlink {
+    margin: 0 40px;
+    display: inline;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    padding: 3% 4%;
+    background-color: var(--dark);
+    color: var(--primary);
+  }
+
+.title {
+    font-size: 3rem;
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 10px;
+    display: inline-block;
+    border-radius: var(--radius);
+    box-shadow: 6px 5px var(--brown);
+    color: var(--dark);
+}
+
+.col-auto {
+    flex-grow: 1;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer {
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: .5em;
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: var(--radius);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/* All Posts
+- card
+    - header
+    - body
+*/
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--radius);
+}
+
+.c-header {
+    color: var(--light);
+    background-color: var(--dark);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c-body {
+    padding: 1%;
+}
+
+/* Edit-Post
+- post card
+    - id: new-form class: body
+    - button
+*/
+
+/* Login
+- card
+    -header
+    -body
+    -button
+*/
+
+/* New Post
+- post card
+    -header
+    -body
+    -button
+*/
+
+/* Sign-Up
+- card
+    -header
+    -body
+    -button
+*/
+
+/* Single-Post
+- post
+    -card
+        -post-card
+        -body
+    Comments
+        -card
+        -header
+        -body
+    -card
+        -header
+        -body
+*/
